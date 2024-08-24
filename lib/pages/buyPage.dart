@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project/widgets/gradeViewOfBuyPage.dart';
+import 'package:project/widgets/gradeView.dart';
 import 'package:project/widgets/textformfieldWidget.dart';
 
 class buyPage extends StatefulWidget {
@@ -104,7 +104,7 @@ class _buyPageState extends State<buyPage> {
                 ],
               ),
             ),
-            gradeViewOfBuyPage(ontap: () {})
+            GradeView(ontap: () {})
           ],
         ),
       ),
